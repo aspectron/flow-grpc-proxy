@@ -1,0 +1,38 @@
+{
+	"version": "0.0.1",
+	"name": "@aspectron/flow-grpc-proxy",
+	"description": "Flow gRPC proxy",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aspectron/flow-grpc-proxy"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"socket.io": "*",
+		"express": "*",
+		"@aspectron/flow-uid": "*"
+	},
+	"devDependencies__": {
+		"eslint": "*",
+		"eslint-config-google": "*",
+		"jsdoc": "*",
+		"flow-jsdoc-template": "git+https://github.com/aspectron/flow-jsdoc-template"
+	},
+	"scripts": {
+		"start": "node server",
+		"docs": "node_modules/.bin/jsdoc --configure .jsdoc.js --verbose"
+	},
+	"author": {
+		"name": "ASPECTRON Inc.",
+		"email": "info@aspectron.com",
+		"url": "https://aspectron.com"
+	},
+	"files": [
+		"index.js",
+		"lib",
+		"README.md",
+		"LICENSE",
+		".jsdoc.js"
+	]
+}
